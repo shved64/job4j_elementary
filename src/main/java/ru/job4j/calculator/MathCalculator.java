@@ -9,8 +9,7 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-
-    public static double sumSubstactAndDivide(double first, double second) {
+    public static double sumSubstanceDivide(double first, double second) {
         return subtract(first, second)
                 + divide(first, second);
     }
@@ -23,8 +22,8 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + sumAndMultiply(10, 20));
-        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + sumSubstactAndDivide(20, 10));
-        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + sumAllFunction(5, 5));
+        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + sumAndMultiply(10, 20));
+        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + sumSubstanceDivide(20, 10));
+        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + sumAllFunction(5, 5));
     }
 }
