@@ -40,4 +40,22 @@ class CounterTest {
         int result = Counter.sum(start, finish);
         assertEquals(expected, result);
     }
+
+    @Test
+    void whensumByEvenFrom1To10Then30() {
+        int start = 1;
+        int finish = 10;
+        int expected = 30;
+        int result = Counter.sumByEven(start, finish);
+        assertEquals(expected, result);
+    }
+
+    @Test
+    void whensumByEvenFromMinus4To10Then30() {
+        int start = -4;
+        int finish = 10;
+        int expected = 24;
+        int result = Counter.sumByEven(start, finish);
+        assertEquals(expected, result);
+    }
 }
