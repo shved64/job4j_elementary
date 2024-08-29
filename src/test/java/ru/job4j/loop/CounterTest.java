@@ -33,8 +33,8 @@ class CounterTest {
     }
 
     @Test
-    void whenSumFrom3To2Then0() {
-        int start = 3;
+    void whenSumFrom4To2Then0() {
+        int start = 4;
         int finish = 2;
         int expected = 0;
         int result = Counter.sum(start, finish);
