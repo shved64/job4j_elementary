@@ -7,13 +7,13 @@ public class Frame {
                 boolean isTopOrBottomBorder = row == 0 || row == size - 1;
                 boolean isSideBorder = col == 0 || col == size - 1;
                 if (isTopOrBottomBorder && isSideBorder) {
-                    System.out.print("+"); // ”глы рамки
+                    System.out.print("+");
                 } else if (isTopOrBottomBorder) {
-                    System.out.print("-"); // ¬ерхн€€ и нижн€€ границы
+                    System.out.print("-");
                 } else if (isSideBorder) {
-                    System.out.print("|"); // Ћевые и правые границы
+                    System.out.print("|");
                 } else {
-                    System.out.print(" "); // ¬нутреннее пространство рамки
+                    System.out.print(" ");
                 }
             }
             System.out.println();
