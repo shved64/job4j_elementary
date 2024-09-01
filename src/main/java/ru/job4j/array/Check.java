@@ -8,7 +8,7 @@ public class Check {
             if (data[i] != first) {
                 result = false;
             }
-                break;
+            break;
 
         }
         return result;
