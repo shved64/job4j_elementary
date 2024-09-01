@@ -5,7 +5,9 @@ public class ArrayLoop {
         int[] function = new int[5];
         for (int index = 0; index < function.length; index++) {
             function[index] = index * 2 + 3;
-            System.out.println(function[index]);
+            }
+            for (int func : function) {
+                System.out.println(func);
         }
     }
 }
