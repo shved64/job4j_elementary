@@ -23,7 +23,7 @@ public class SimpleStringEncoder {
             }
         }
         result = appendEncoded(result, symbol, counter);
-                return result;
+        return result;
     }
 }
 
